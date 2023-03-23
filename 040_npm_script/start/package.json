@@ -7,12 +7,15 @@
   "private": true,
   "scripts": {
     "dev": "node main.js",
-    "start": "node main.js"
+    "start": "live-server"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "is-odd": "^3.0.1"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2"
   }
 }
